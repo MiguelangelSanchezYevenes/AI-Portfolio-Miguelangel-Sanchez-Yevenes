@@ -1,22 +1,22 @@
 
 ## Problem Statement
 
-The main problem in this project was understanding how diffusion models generate images from random noise. The goal was to learn how AI systems can gradually remove noise step-by-step until a recognizable image is created.
+The goal of this lab was to teach an AI agent how to balance a pole on a moving cart using reinforcement learning. The challenge was for the agent to keep the pole upright for as long as possible without falling over. The lab focused on showing how an agent can improve its behavior through trial and error using Q-learning.
 
 ## Approach and methodology
 
-The project used a diffusion model with a U-Net architecture. . The process started by adding noise slowly to images until they became fully random and during training, the model learned how to reverse this process by predicting and removing noise step-by-step. The model also used embeddings and one-hot vectors to tell the AI which digit to generate.
+The lab used the CartPole environment from the Gymnasium library in Python. A random agent was tested to show what happens when an AI has no training. It selected actions without any strategies, then it was recorded. Next, a Q-learning agent was implemented. The agent learned by interacting with the environment repeatedly over many episodes. It received rewards for keeping the pole balanced and updated its Q-table. Graphs were also created using Matplotlib to visualize the agent’s improvement over time.
 
 ## Results and evaluation
 
-The results showed that the model improved as training continued. At first, the generated images looked like random noise, but over time the images became clearer and recognizable. CLIP scores were used to evaluate how closely the generated images matched the intended digit labels. Simpler digits such as 0 and 1 were easier for the model to generate. But as they increase, it was harder since their curves.
+The random agent performed poorly because it had no learning ability and could only keep the pole balanced for a short time but after training, the Q-learning agent showed major improvement. This made it better to balance the pole for longer periods of time. The results demonstrated that reinforcement learning allows an AI agent to learn from experience and improve its decisions over time.
 
 ## Your learning outcomes
 
 I learned: 
 
-How diffusion models work
+The basics of reinforcement learning
 
-Why gradual noise removal is important in AI image generation
+Learned how Q-learning works
 
-Real-world applications of diffusion models, including AI art generation and content creation
+How agents update Q-values and balance exploration versus exploitation.
