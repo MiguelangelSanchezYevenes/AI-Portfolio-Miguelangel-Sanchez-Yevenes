@@ -1,0 +1,11 @@
+torch
+torchvision
+datasets
+tokenizers
+scikit-learn
+numpy
+pandas
+matplotlib
+jupyter
+notebook
+ipykernel
