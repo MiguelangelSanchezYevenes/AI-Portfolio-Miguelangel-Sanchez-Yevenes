@@ -1,7 +1,7 @@
 This project explores the basics of neural networks and introduces different neural network architectures. We use the Neural Network Zoo which was created by The Asimov Institute.
 
 ''
-Problem Statement
+## Problem Statement
 ''
 
 Artificial Intelligence systems require methods that can learn patterns from data and make decisions automatically. This project was created to simplify the learning process by visually organizing and explaining neural network models and the animal I chose as an example how this works.
