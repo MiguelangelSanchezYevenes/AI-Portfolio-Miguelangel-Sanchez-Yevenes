@@ -15,6 +15,9 @@ The project successfully demonstrated how different neural network architectures
 ## Your learning outcomes
 
 I learned:
+
 The basic structure of neural networks
+
 The differences between CNN, RNN, and LSTM 
+
 The roles of input, hidden, and output layers
